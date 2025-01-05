@@ -1,0 +1,30 @@
+{
+  "name": "chatbot-backend-node",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepak-25yadav/chatbot-backend-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deepak-25yadav/chatbot-backend-node/issues"
+  },
+  "homepage": "https://github.com/Deepak-25yadav/chatbot-backend-node#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "openai": "^4.77.3"
+  }
+}
