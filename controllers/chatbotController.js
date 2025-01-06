@@ -22,7 +22,7 @@ const handleChat = async (req, res) => {
       
       const chatCompletion = await client.chat.completions.create({
         messages: [{ role: 'user', content: message }],
-        model: 'gpt-3.5-turbo', // Use 'gpt-4' if your API key supports it
+        model: 'gpt-3.5-turbo',
       });
       
     //   console.log("chatCompletion ####>>",chatCompletion)
