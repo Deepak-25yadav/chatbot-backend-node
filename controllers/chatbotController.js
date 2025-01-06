@@ -13,7 +13,7 @@ const client = new OpenAI({
 const handleChat = async (req, res) => {
     try {
       const { message } = req.body;
-       console.log("/api/chat-message >>",message)
+    //    console.log("/api/chat-message >>",message)
   
       if (!message) {
         return res.status(400).json({ success: false, message: 'Message is required' });
@@ -30,7 +30,7 @@ const handleChat = async (req, res) => {
       const reply = chatCompletion.choices[0].message.content;
       
   
-      console.log("reply $$$>>>",reply)
+    //   console.log("reply $$$>>>",reply)
     //   console.log("chatCompletion.choices[0]",chatCompletion.choices[0])
   
       
